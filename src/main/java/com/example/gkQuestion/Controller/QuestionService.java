@@ -17,7 +17,7 @@ public class QuestionService {
         this.resource = resource;
     }
 
-    @GetMapping("/questions")
+    @GetMapping("/question")
     public List<Question> retrieveAllQuestion() {
         return resource.findAll();
     }
